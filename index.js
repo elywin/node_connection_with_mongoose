@@ -5,7 +5,7 @@ const url = 'mongodb://localhost/testdb';
 const db =mongoose.connection;
 
 //connect mongodb with connect method
-mongoose.connect(url,{useNewUrlParser:true});
+mongoose.connect(url,{useNewUrlParser:true,useUnifiedTopology: true });
 
 //veryfying connection
 db.once('open',_=>{
@@ -15,3 +15,4 @@ db.once('open',_=>{
 db.on('error',(err)=>{
     console.error('connection failed:',err);
 });
+

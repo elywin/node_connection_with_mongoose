@@ -1,14 +1,22 @@
 {
-  "name": "connection_to_mongodb",
+  "name": "node_connection_with_mongoose",
   "version": "1.0.0",
-  "description": "",
+  "description": "connecting mongo db with node using mongoose",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/elywin/node_connection_with_mongoose.git"
+  },
   "keywords": [],
   "author": "",
   "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/elywin/node_connection_with_mongoose/issues"
+  },
+  "homepage": "https://github.com/elywin/node_connection_with_mongoose#readme",
   "dependencies": {
     "express": "^4.17.1",
     "mongoose": "^5.10.0"
